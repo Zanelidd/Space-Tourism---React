@@ -1,0 +1,200 @@
+.destination-container {
+    background-image: url("/src/assets/destination/background-destination-mobile.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 127vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    @media screen and (min-width:768px) {
+        background-image: url("/src/assets/destination/background-destination-tablet.jpg");
+        height: 105vh;
+        
+    }
+
+    @media screen and (min-width:1268px) {
+        background-image: url("/src/assets/destination/background-destination-desktop.jpg");
+
+    }
+
+    .title-container {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+
+        @media screen and (min-width:768px) {
+            justify-content: start;
+        }
+
+        @media screen and (min-width:1268px) {}
+
+        .title-number {
+            font-family: 'Barlow Condensed';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1rem;
+            line-height: 1.2rem;
+            letter-spacing: 2.7px;
+            color: #FFFFFF;
+            mix-blend-mode: normal;
+            opacity: 0.25;
+            margin-right: 1.1rem;
+
+            @media screen and (min-width:768px) {
+                font-size: 1.25rem;
+                line-height: 1.5rem;
+                letter-spacing: 3.375px;
+            }
+
+            @media screen and (min-width:1268px) {}
+        }
+
+        .title {
+            font-family: 'Barlow Condensed';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.2rem;
+            letter-spacing: 2.7px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+
+            @media screen and (min-width:768px) {
+                font-size: 1.25rem;
+                line-height: 1.5rem;
+                letter-spacing: 3.375px;
+            }
+
+            @media screen and (min-width:1268px) {}
+        }
+
+    }
+
+    .illustration {
+        height: 10.6rem;
+        width: 10.6rem;
+
+        @media screen and (min-width:768px) {
+            height: 18.75rem;
+            width: 18.75rem;
+        }
+
+        @media screen and (min-width:1268px) {}
+    }
+
+    .navigation {
+        list-style-type: none;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-around;
+        width: 20vw;
+        a {
+            color: #D0D6F9;
+            list-style-type: none;
+            text-decoration: none;
+        }
+
+    }
+
+    .description-container {
+
+        h1 {
+            font-family: 'Bellefair';
+            font-weight: 400;
+            font-size: 3.5rem;
+            color: white;
+
+            @media screen and (min-width:768px) {
+                font-size: 5rem;
+                line-height: 5.75rem;
+            }
+
+            @media screen and (min-width:1268px) {}
+        }
+
+        p {
+            color: #D0D6F9;
+            font-family: 'Barlow';
+            font-weight: 400;
+            font-size: 0.9rem;
+            text-align: center;
+            width: 20.4rem;
+            height: 7.8rem;
+            line-height: 1.6rem;
+
+            @media screen and (min-width:768px) {
+                font-size: 1rem;
+                line-height: 1.75rem;
+                width:75vw;
+            }
+
+            @media screen and (min-width:1268px) {}
+
+        }
+    }
+
+    .bordure {
+        border-bottom: 1px solid #D0D6F9;
+        width: 80vw;
+    }
+
+    .information-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 20vh;
+
+        @media screen and (min-width:768px) {
+            flex-direction: row;
+            width: 55vw;
+            height: auto;
+
+        }
+
+        @media screen and (min-width:1268px) {}
+
+        h3 {
+            font-family: 'Barlow Condensed';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 0.9rem;
+            line-height: 1.1rem;
+            text-align: center;
+            letter-spacing: 0.15rem;
+            text-transform: uppercase;
+            color: #D0D6F9;
+
+            @media screen and (min-width:768px) {
+                font-size: 0.87rem;
+                line-height: 1.06rem;
+            }
+
+            @media screen and (min-width:1268px) {}
+
+        }
+
+        p {
+            font-family: 'Bellefair';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.75rem;
+            line-height: 2rem;
+            text-align: center;
+            text-transform: uppercase;
+            color: white;
+
+            @media screen and (min-width:768px) {
+                font-size: 1.75rem;
+                line-height: 2rem;
+            }
+
+            @media screen and (min-width:1268px) {}
+        }
+    }
+
+}

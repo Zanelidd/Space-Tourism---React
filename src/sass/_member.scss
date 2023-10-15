@@ -1,0 +1,34 @@
+.member-image {
+  height: 14rem;
+  width: auto;
+}
+
+.information-container {
+  .role-name-container {
+    h5 {
+      color: white;
+      opacity: 0.5;
+      font-family: "Bellefair";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.125rem;
+    }
+    h3 {
+      color: white;
+      font-family: "Bellefair";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.5rem;
+      line-height: 1.75rem;
+    }
+  }
+  p {
+    color: #d0d6f9;
+    font-family: "Bellefair";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.56rem;
+  }
+}

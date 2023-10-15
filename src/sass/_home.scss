@@ -1,0 +1,108 @@
+body {
+  background-image: url("/src/assets/home/background-home-mobile.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: auto;
+  @media screen and (min-width: 768px) {
+    background-image: url("/src/assets/home/background-home-tablet.jpg");
+  }
+  @media screen and (min-width: 1268px) {
+    background-image: url("/src/assets/home/background-home-desktop.jpg");
+  }
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+  @media screen and (min-width: 1268px) {
+    width: 100vw;
+    // height: 23.9rem;
+    flex-direction: row;
+  }
+
+  .home-text {
+    color: #d0d6f9;
+    width: 20rem;
+    height: 17.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    @media screen and (min-width: 768px) {
+      width: 28rem;
+      height: 20.9rem;
+    }
+    @media screen and (min-width: 1268px) {
+      width: 28.1rem;
+      height: 23.9rem;
+    }
+
+    .home-text-1 {
+      font-size: 1rem;
+      font-family: "Barlow condensed";
+      font-weight: 400;
+      line-height: 1.2rem;
+      letter-spacing: 2.7px;
+      @media screen and (min-width: 768px) {
+        letter-spacing: 3.375px;
+        line-height: 1.5rem;
+        font-size: 1.25rem;
+      }
+    }
+
+    .home-title {
+      font-size: 5rem;
+      color: white;
+      font-family: "Bellefair";
+      font-weight: 400;
+      line-height: 6.2rem;
+      @media screen and (min-width: 768px) {
+        font-size: 9.4rem;
+        line-height: 9.4rem;
+        width: 27.8rem;
+        height: 9.4rem;
+      }
+    }
+
+    .home-text-2 {
+      font-size: 0.9rem;
+      line-height: 1.6rem;
+      font-family: "Barlow";
+      font-weight: 400;
+      @media screen and (min-width: 768px) {
+        width: 27.8rem;
+        height: 7rem;
+        font-size: 1rem;
+        line-height: 1.75rem;
+      }
+    }
+  }
+
+  .home-button {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    font-size: 1.5rem;
+    font-family: "Bellefair";
+    font-weight: 400;
+    letter-spacing: 1.25px;
+    @media screen and (min-width: 768px) {
+      height: 15rem;
+      width: 15rem;
+      font-size: 2rem;
+    }
+    &:hover {
+      transition: ease-in-out 0.5s;
+      -webkit-box-shadow: 0 0 3px 50px #dddddd41;
+      -moz-box-shadow: 0 0 3px 50px #dddddd41;
+      box-shadow: 0 0 3px 50px #dddddd41;
+    }
+  }
+}
